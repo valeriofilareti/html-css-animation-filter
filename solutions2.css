@@ -73,4 +73,19 @@
   scale: 1.5;
 }
 /* ex9 */
+/* ex10 */
+.ex-10-icon {
+  animation-name: rotation;
+  animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+/* ex10 */
 
