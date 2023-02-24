@@ -14,4 +14,20 @@
   width: 100%;
 }
 /* ex2 */
+/* ex3 */
+.ex-3-square {
+  transition: 2s;
+}
+.ex-3-square:hover {
+  border-radius: 100%;
+}
+/* ex3 */
+/* ex4 */
+.ex-4-square {
+  transition: 2s;
+}
+.ex-4-square:hover {
+  opacity: 0;
+}
+/* ex4 */
 
