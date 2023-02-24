@@ -32,15 +32,13 @@
 /* ex4 */
 /* ex5 */
 .ex-5-square {
-  transition: 2s;
+  transition: 1s;
 }
 .ex-5-square:hover {
-  width: 100px;
-  height: 100px;
+  scale: 1.5;
 }
 .ex-5-square:active {
-  width: 30px;
-  height: 30px;
+  scale: .5;
 }
 /* ex5 */
 /* ex6 */
@@ -65,4 +63,14 @@
   border-radius: 20px;
 }
 /* ex8 */
+/* ex9 */
+.ex-9-img {
+  transition: 1s;
+}
+.ex-9-img:hover {
+  filter: sepia(.5) grayscale(.5) ;
+  border-radius: 20px;
+  scale: 1.5;
+}
+/* ex9 */
 
