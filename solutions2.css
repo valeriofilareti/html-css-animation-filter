@@ -43,9 +43,17 @@
   height: 30px;
 }
 /* ex5 */
-/* ex5 */
+/* ex6 */
 .ex-6-img:hover {
   filter: grayscale(1);
 }
-/* ex5 */
+/* ex6 */
+/* ex7 */
+.ex-7-img {
+  transition: 1s;
+}
+.ex-7-img:hover {
+  filter: sepia(.5) grayscale(.5) ;
+}
+/* ex7 */
 
