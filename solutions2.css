@@ -30,4 +30,17 @@
   opacity: 0;
 }
 /* ex4 */
+/* ex5 */
+.ex-5-square {
+  transition: 2s;
+}
+.ex-5-square:hover {
+  width: 100px;
+  height: 100px;
+}
+.ex-5-square:active {
+  width: 30px;
+  height: 30px;
+}
+/* ex5 */
 
