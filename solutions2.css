@@ -88,4 +88,21 @@
   }
 }
 /* ex10 */
+/* ex11 */
+.ex-11-icon:hover {
+  animation-name: rotation2;
+  animation: rotation2 1s linear;
+}
+  @keyframes rotation2 {
+    0% {
+      transform: rotate(0deg);
+    }
+    75% {
+      transform: rotate(300deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+/* ex11 */
 
